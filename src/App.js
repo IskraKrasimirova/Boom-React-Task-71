@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <Document title="Terms and Conditions" content={text} />
+      <Document title="Terms & Conditions" content={text} />
     </div>
   );
 }
