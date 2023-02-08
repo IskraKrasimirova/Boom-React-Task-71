@@ -13,11 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="container is-fullhd">
-        <div class="notification">
-          <Document title='Terms and Conditions' content={text} />
-        </div>
-      </div>
+      <Document title="Terms and Conditions" content={text} />
     </div>
   );
 }
