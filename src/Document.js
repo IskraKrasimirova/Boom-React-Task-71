@@ -9,7 +9,7 @@ function Document({ title, content }) {
         <section>
             <h1 className={title}>{title}</h1>
             <article className={content} style={{ overflow: 'auto', height: '200px' }} onScroll={handleScroll}>{content}</article>
-            <button disabled='true'>I Agree</button>
+            <button disabled="true">I Agree</button>
         </section>
     );
 }
